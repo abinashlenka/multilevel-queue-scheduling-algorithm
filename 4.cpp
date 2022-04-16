@@ -19,7 +19,7 @@ void FCFS();
 void printQueueI(struct process);
 void printQueue(struct process *,int);
 int q1_n=0,q2_n=0,q3_n=0,n=0; //N=Total Process
-struct process *q1,*q2,*q3;
+struct process *q1,*wdq2,*q3;
 int time_quantum = 4;
 void getInput(){
 	printf("\n Total Number of Process:\t");
